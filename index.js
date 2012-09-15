@@ -34,20 +34,35 @@
 
   /**
    * set
-   * Set a 2d vector.
+   * Set vector.
    * 
    * @param {Float32Array} self destination vector
-   * @param {Float32Array} v sorce vector
-   * @return {Float32Array} a 2d vector
+   * @param {Float32Array} v source vector
+   * @return {Float32Array} destination vector
    * @api public
    */
 
-  vec2.set = function (self, v) {
+  vector2.set = function (self, v) {
     self[0] = v[0];
     self[1] = v[1];
 
     return self;
   };
 
+  /**
+   * zero
+   * Set vector to zero.
+   * 
+   * @param {Float32Array} self destination vector
+   * @return {Float32Array} destination vector
+   * @api public
+   */
 
+  vector2.zero = function (self) {
+    self[0] = 0.0;
+    self[1] = 0.0;
+
+    return self;
+  };
+  
  }(this));
