@@ -201,4 +201,20 @@
     return sqrt(x*x + y*y);
   };
 
+  /**
+   * length_squared
+   * Get vector length squared.
+   * 
+   * @param {Float32Array} self vector
+   * @return {Number} vector length
+   * @api public
+   */
+
+  vector2.length_squared = function (self) {
+    var x = self[0];
+    var y = self[1];
+
+    return (x*x + y*y);
+  };
+
 }(this));
