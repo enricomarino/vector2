@@ -6,7 +6,7 @@
   },
   "name": "vector2",
   "description": "JavaScript math library for 2d vector",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "homepage": "https://github.com/onirame/vector2",
   "repository": {
     "type": "git",
