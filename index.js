@@ -173,7 +173,8 @@
    * Scale vector.
    * 
    * @param {Float32Array} self destination vector
-   * @return {Number} k scaling value
+   * @param {Number} k scaling value
+   * @return {Float32Array} destination vector
    * @api public
    */
 
@@ -182,6 +183,22 @@
     self[1] *= k;
 
     return self;
+  };
+
+  /**
+   * length
+   * Get vector length.
+   * 
+   * @param {Float32Array} self vector
+   * @return {Number} vector length
+   * @api public
+   */
+  
+  vector2.length = function (self) {
+    var x = self[0];
+    var y = self[1];
+
+    return sqrt(x*x + y*y);
   };
 
 }(this));
