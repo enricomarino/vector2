@@ -84,7 +84,7 @@
   };
 
   /**
-   * sum
+   * diff
    * Set vector to the difference of `a` and `b`.
    * 
    * @param {Float32Array} self destination vector
@@ -93,7 +93,7 @@
    * @return {Float32Array} destination vector
    * @api public
    */
-  
+
   vector2.diff = function (self, a, b) {
     self[0] = a[0] - b[0];
     self[1] = a[1] - b[1];
@@ -101,5 +101,21 @@
     return self;
   };
 
+  /**
+   * add
+   * Add vector.
+   * 
+   * @param {Float32Array} self destination vector
+   * @param {Float32Array} v vector
+   * @return {Float32Array} destination vector
+   * @api public
+   */
+
+  vector2.add = function (self, v) {
+    self[0] += v[0];
+    self[1] += v[1];
+
+    return self;
+  };
 
  }(this));
