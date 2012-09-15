@@ -152,4 +152,20 @@
     return self;
   };
 
+  /**
+   * neg
+   * Negate vector.
+   * 
+   * @param {Float32Array} self destination vector
+   * @return {Float32Array} destination vector
+   * @api public
+   */
+
+  vector2.neg = function (self) {
+    self[0] = -self[0];
+    self[1] = -self[1];
+
+    return self;
+  };
+  
  }(this));
