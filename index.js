@@ -18,7 +18,7 @@
    * Library version.
    */
 
-  vector2.version = '0.0.0';
+  vector2.version = '0.1.0';
 
   /**
    * create
