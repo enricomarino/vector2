@@ -118,4 +118,21 @@
     return self;
   };
 
+  /**
+   * sub
+   * Sub vector.
+   * 
+   * @param {Float32Array} self destination vector
+   * @param {Float32Array} v vector
+   * @return {Float32Array} destination vector
+   * @api public
+   */
+
+  vector2.sub = function (self, v) {
+    self[0] -= v[0];
+    self[1] -= v[1];
+
+    return self;
+  };
+  
  }(this));
