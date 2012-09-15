@@ -64,5 +64,23 @@
 
     return self;
   };
-  
+
+  /**
+   * sum
+   * Set vector to the sum of `a` and `b`.
+   * 
+   * @param {Float32Array} self destination vector
+   * @param {Float32Array} a vector
+   * @param {Float32Array} b vector
+   * @return {Float32Array} destination vector
+   * @api public
+   */
+
+  vector2.sum = function (self, a, b) {
+    self[0] = a[0] + b[0];
+    self[1] = a[1] + b[1];
+
+    return self;
+  };
+
  }(this));
