@@ -1,12 +1,21 @@
 {
-  "author": {
-    "name": "Enrico Marino",
-    "email": "enrico.marino@email.com",
-    "site": "http://onirame.no.de"
-  },
   "name": "vector2",
   "description": "JavaScript math library for 2d vector",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "author": {
+    "name": "Enrico Marino",
+    "email": "enrico.marino@email.com"
+  },
+  "maintainers": [
+    {
+      "name": "Enrico Marino",
+      "email": "enrico.marino@email.com"
+    },
+    {
+      "name": "Federico Spini",
+      "email": "federico.spini@gmail.com"
+    }
+  ],
   "homepage": "https://github.com/onirame/vector2",
   "repository": {
     "type": "git",
