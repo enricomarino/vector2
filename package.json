@@ -1,6 +1,6 @@
 {
   "name": "vector2",
-  "description": "JavaScript math library for 2d vector",
+  "description": "JavaScript 2d vector library",
   "version": "0.1.1",
   "author": {
     "name": "Enrico Marino",
