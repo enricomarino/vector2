@@ -1,6 +1,6 @@
 # vector2
 
-JavaScript math library for 2d vector
+JavaScript 2d vector library
 
 ## Installation
 
