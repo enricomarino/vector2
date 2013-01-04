@@ -1,9 +1,10 @@
 
 /* !
  * vector2
- * JavaScript math library for 2d vector
- * Copyright (c) 2012 Enrico Marino
- * MIT License
+ * JavaScript 2d vector library
+ * 
+ * @copyright 2013 Enrico Marino
+ * @license MIT
  */
 
 /**
@@ -16,7 +17,7 @@ var vector2 = exports;
  * Library version.
  */
 
-vector2.version = '0.1.0';
+vector2.version = '0.2.0';
 
 /**
  * create

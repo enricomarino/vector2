@@ -4,13 +4,13 @@ JavaScript 2d vector library
 
 ## Installation
 
-    $ npm install vector2
+    $ component install component-math/vector2
 
 ## License
 
 (The MIT License)
 
-Copyright (c) 2012 Enrico Marino
+Copyright (c) 2013 Enrico Marino
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

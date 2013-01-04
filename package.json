@@ -1,25 +1,25 @@
 {
   "name": "vector2",
   "description": "JavaScript 2d vector library",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "author": {
     "name": "Enrico Marino",
-    "email": "enrico.marino@email.com"
+    "url": "http://onirame.com"
   },
   "maintainers": [
     {
       "name": "Enrico Marino",
-      "email": "enrico.marino@email.com"
+      "url": "http://onirame.com"
     },
     {
       "name": "Federico Spini",
-      "email": "federico.spini@gmail.com"
+      "url": "http://federicospini.com"
     }
   ],
-  "homepage": "https://github.com/onirame/vector2",
+  "homepage": "https://github.com/component-math/vector2",
   "repository": {
     "type": "git",
-    "url": "git://github.com/onirame/vector2.git"
+    "url": "git://github.com/component-math/vector2.git"
   },
   "main": "index.js",
   "engines": {
