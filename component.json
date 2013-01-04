@@ -1,9 +1,9 @@
 {
-  "name": "matrix2",
-  "repo": "component-math/matrix2",
+  "name": "vector2",
+  "repo": "component-math/vector2",
   "version": "0.2.0",
-  "description": "JavaScript 2d matrix library",
-  "keywords": ["math", "matrix", "2d"],
+  "description": "JavaScript 2d vector library",
+  "keywords": ["math", "vector", "2d"],
   "scripts": ["index.js"],
   "dependencies": {
   },
