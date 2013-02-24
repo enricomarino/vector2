@@ -1,7 +1,6 @@
-
 /**
  * vector2
- * JavaScript 2d vector library
+ * Vector 2D component
  * 
  * @copyright 2013 Enrico Marino
  * @license MIT
