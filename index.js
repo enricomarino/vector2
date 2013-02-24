@@ -1,5 +1,5 @@
 
-/* !
+/**
  * vector2
  * JavaScript 2d vector library
  * 
@@ -12,12 +12,6 @@
  */
 
 var vector2 = exports;
-
-/**
- * Library version.
- */
-
-vector2.version = '0.2.0';
 
 /**
  * create
