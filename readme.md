@@ -1,10 +1,61 @@
 # vector2
 
-JavaScript 2d vector library
+vector 2D component
 
 ## Installation
 
-    $ component install component-math/vector2
+    $ component install enricomarino/vector2
+
+## API
+
+### create():Float32Array
+
+Create a 2d vector.
+
+### set(self:Float32Array, v:Float32Array):Float32Array
+
+Set vector.
+
+### zero(self):Float32Array
+
+Set vector to zero.
+
+### sum(self:Float32Array, v1:Float32Array, v2:Float32Array):Float32Array
+
+Set vector to the sum of `v1` and `v2`.
+
+### diff(self:Float32Array, v1:Float32Array, v2:Float32Array):Float32Array
+
+Set vector to the difference of `v1` and `v2`.
+
+### add(self:Float32Array, v:Float32Array):Float32Array
+
+Add vector `v`.
+
+### sub(self:Float32Array, v):Float32Array
+
+Sub vector `v`.
+
+### opposite(self:Float32Array, v:Float32Array):Float32Array
+
+Set vector to the opposite of `v`.
+
+### neg(self:Float32Array):Float32Array
+
+Negate vector.
+
+### scale(self:Float32Array, k:Number):Float32Array
+
+Scale vector.
+
+### length(self:Float32Array):Float32Array
+
+Get vector length.
+
+### length_squared(self:Float32Array):Float32Array
+
+Get vector length squared.
+
 
 ## License
 
